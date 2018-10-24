@@ -165,4 +165,11 @@
 
     </PreferenceCategory>
 
+        <com.dirtyunicorns.support.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_show_ticker"
+        android:title="@string/status_bar_show_ticker_title"
+        android:summary="@string/status_bar_show_ticker_summary"
+        android:defaultValue="false"
+        android:fragment="com.awaken.settings.fragments.StatusBarTicker" />
+
 </PreferenceScreen>
